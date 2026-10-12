@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actividad 1</title>
+    <link rel="stylesheet" href="../src/style.css" />
+    <link rel="icon"type="image/png" href="../src/assets/img/favicon.png">
+
+  </head>
+  <body>
+    <header>
+      <div id="menu"></div>
+    </header>
+    <main>
+      <section class="section-t">
+        <div class="container">
+          <h1 class="titulo-actividad t-azul inclinado">
+            Actividad 1: Tablero
+          </h1>
+
+          <div class="actividad-intro">
+            <div class="actividad-intro-imagen">
+              <img src="../src/assets/img/tablero.png" alt="Tablero" />
+            </div>
+
+            <div class="actividad-intro-texto">
+              <h2 class="titulo-intro t-azul">Propósito</h2>
+              <p>
+                Generar un primer acercamiento al tema, recuperar conocimientos
+                y experiencias de los estudiantes y orientar la creación de
+                ideas a partir de una situación o pregunta.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section bg-azul">
+        <h2 class="t-amarillo-medio h-center animar-scroll">Preparación</h2>
+
+        <div class="container">
+          <div class="bloque-forma">
+            <div class="contenido-preparacion">
+              <div class="bloque-contenido t-azul animar-scroll">
+                <div class="bloque-imagen">
+                  <img src="../src/assets/img/reloj.svg" alt="Reloj" />
+                </div>
+                <div class="bloque-texto">
+                  <h3>Tiempo</h3>
+                  <p>90 minutos</p>
+                </div>
+              </div>
+
+              <div class="separador animar-scroll">
+                <img
+                  src="../src/assets/img/separador-vertical.svg"
+                  class="separador-vertical"
+                  alt="separador vertical"
+                />
+
+                <img
+                  src="../src/assets/img/separador-horizontal.svg"
+                  class="separador-horizontal"
+                  alt="separador horizontal"
+                />
+              </div>
+
+              <div class="bloque-contenido t-azul animar-scroll">
+                <div class="bloque-imagen">
+                  <img
+                    src="../src/assets/img/materiales.svg"
+                    alt="Materiales"
+                  />
+                </div>
+                <div class="bloque-texto">
+                  <h3>Materiales</h3>
+                  <ul>
+                    <li>Tablero</li>
+                    <li>Fichas</li>
+                    <li>Papelógrafo</li>
+                    <li>Lápices y colores</li>
+                    <li>Recurso web</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="separador animar-scroll">
+                <img
+                  src="../src/assets/img/separador-vertical.svg"
+                  class="separador-vertical"
+                  style="transform: scaleX(-1)"
+                  alt="separador vertical"
+                />
+
+                <img
+                  src="../src/assets/img/separador-horizontal.svg"
+                  class="separador-horizontal"
+                  alt="separador horizontal"
+                />
+              </div>
+
+              <div class="bloque-contenido t-azul animar-scroll">
+                <div class="bloque-imagen">
+                  <img
+                    src="../src/assets/img/a-comenzar.svg"
+                    alt="a-comenzar"
+                  />
+                </div>
+                <div class="bloque-texto">
+                  <h3>Antes de comenzar</h3>
+                  <p>
+                    Seleccionar el tema.<br />
+                    Plantear una pregunta o situación para direccionar la
+                    temática.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-t section">
+        <div class="container">
+          <h2 class="t-azul h-center animar-scroll">Desarrollo</h2>
+
+          <div class="desarrollo-contenido">
+            <div class="desarrollo-bloque-wrapper animar-scroll">
+              <div class="numero-paso t-azul-oscuro">1</div>
+              <div class="desarrollo-bloque des-tablero">
+                <h3 class="t-amarillo-medio">Problematizemos</h3>
+                <p class="t-beige">
+                  Presenta el tema y plantea una pregunta o situación que invite
+                  a los estudiantes a pensar, cuestionar y expresar diferentes
+                  posibilidades.
+                </p>
+              </div>
+            </div>
+
+            <div class="icono-flecha animar-scroll">
+              <img src="../src/assets/img/flecha.svg" alt="flecha" />
+            </div>
+
+            <div class="desarrollo-bloque des-border animar-scroll">
+              <h3 class="t-azul movil-pregunta">Preguntas de mediación</h3>
+              <ul class="bullet-azul">
+                <li>¿Qué creen que está pasando?</li>
+                <li>¿Por qué creen que puede ocurrir?</li>
+                <li>¿Qué podría pasar?</li>
+                <li>¿Cómo nos afectaría?</li>
+                <li>¿Qué otras posibilidades imaginamos?</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pregunta-section bg-amarillo-medio">
+        <button id="btn-salir-proyeccion" class="btn-salir-proyeccion">
+          <img
+            src="../src/assets/img/cerrar-rojo.svg"
+            alt="Salir de proyección"
+          />
+        </button>
+        <div class="container">
+          <h2 class="t-azul animar-scroll image-scroll">Preguntémonos</h2>
+          <p
+            id="pregunta-instruccion"
+            class="pregunta-instruccion animar-scroll"
+          >
+            Pulsa “Editar” para adaptar la pregunta al tema.
+          </p>
+          <div class="pregunta-forma animar-scroll image-scroll">
+            <textarea id="pregunta-input" rows="1" readonly>
+              ¿Qué podría pasar si...?</textarea>
+          </div>
+
+          <div class="pregunta-botones animar-scroll image-scroll">
+            <button id="btn-accion">Editar</button>
+            <button id="btn-secundario">Proyectar</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-t">
+        <div class="container">
+          <div class="main-container">
+            <div class="desarrollo-contenido">
+              <div class="desarrollo-bloque-wrapper animar-scroll">
+                <div class="numero-paso t-azul-oscuro">2</div>
+                <div class="desarrollo-bloque des-tablero desa-movil-2">
+                  <h3 class="t-amarillo-medio">Exploremos</h3>
+                  <p class="t-beige">
+                    Entrega el tablero y fichas a cada grupo (al menos 2 fichas a cada estudiante). Invita a los
+                    estudiantes a relacionar el tema con lo que conocen, han
+                    vivido u observado. Indica que pueden escribir o dibujar sus
+                    ideas en las fichas y acomodarlas en la sección "Exploremos"
+                    del tablero.
+                  </p>
+                </div>
+              </div>
+              <div class="icono-flecha animar-scroll">
+                <img src="../src/assets/img/flecha.svg" alt="flecha" />
+              </div>
+
+              <div class="desarrollo-bloque des-border animar-scroll">
+                <h3 class="t-azul">Preguntas de mediación</h3>
+                <ul class="bullet-azul">
+                  <li>¿Qué sabemos sobre este tema?</li>
+                  <li>¿Dónde lo hemos visto?</li>
+                  <li>¿Qué experiencias tenemos?</li>
+                  <li>¿Qué nos llama la atención?</li>
+                </ul>
+              </div>
+            </div>
+            <div class="desarrollo-contenido">
+              <div class="desarrollo-bloque-wrapper animar-scroll">
+                <div class="numero-paso t-azul-oscuro">3</div>
+                <div class="desarrollo-bloque des-tablero">
+                  <h3 class="t-amarillo-medio">Elijamos</h3>
+                  <p class="t-beige">
+                    Pide a los estudiantes revisar las ideas y llegar a un
+                    acuerdo sobre cuáles quieren desarrollar. Indica que deben
+                    mover las fichas de la sección "Exploremos" a la sección
+                    "Elijamos".
+                  </p>
+                </div>
+              </div>
+              <div class="icono-flecha animar-scroll">
+                <img src="../src/assets/img/flecha.svg" alt="flecha" />
+              </div>
+
+              <div class="desarrollo-bloque des-border animar-scroll">
+                <h3 class="t-azul movil-pregunta">Preguntas de mediación</h3>
+                <ul class="bullet-azul">
+                  <li>¿Cuál de estas ideas nos interesa más?</li>
+                  <li>¿Podemos combinar algunas ideas?</li>
+                  <li>¿Todos estamos de acuerdo?</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="desarrollo-contenido dos-columnas">
+              <div class="desarrollo-bloque-wrapper animar-scroll">
+                <div class="numero-paso t-azul-oscuro">4</div>
+                <div class="desarrollo-bloque des-tablero">
+                  <h3 class="t-amarillo-medio">Dibujemos</h3>
+                  <p class="t-beige">
+                    Invita a los estudiantes a que realicen un dibujo colectivo
+                    con las ideas que elijieron. Proporciona un papelógrafo y
+                    material de dibujo a cada grupo.
+                  </p>
+                </div>
+              </div>
+
+              <div class="desarrollo-bloque-wrapper animar-scroll">
+                <div class="numero-paso t-azul-oscuro">5</div>
+                <div class="desarrollo-bloque des-tablero">
+                  <h3 class="t-amarillo-medio">Observemos</h3>
+                  <p class="t-beige">
+                    Asegúrate que todos los estudiantes participen en la
+                    generación de ideas, toma de decisiones y realización del
+                    dibujo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="navegacion-actividad section-t">
+        <div class="container animar-scroll image-scroll">
+          <a href="../index.html" class="btn-navegacion"> Inicio </a>
+
+          <a href="./actividad-personajes.html" class="btn-navegacion">
+            Actividad 2 →
+          </a>
+        </div>
+      </section>
+
+    </main>
+    <script type="module" src="../src/js/main.js"></script>
+  </body>
+</html>

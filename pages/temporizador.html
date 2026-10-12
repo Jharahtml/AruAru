@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporizador</title>
+    <link rel="stylesheet" href="../src/style.css">
+    <link rel="icon"type="image/png" href="../src/assets/img/favicon.png">
+
+</head>
+<body>
+    <header>
+      <div id="menu"></div>
+    </header>
+    <main>
+         <section class="section-t temporizador-section">
+            <div class="container">
+
+                <div class="temporizador">
+                    <h1 class="animar-scroll">Temporizador</h1>
+
+                    <div class="temporizador-reloj animar-scroll">
+                        <span id="minutos">10</span>
+                        <span>:</span>
+                        <span id="segundos">00</span>
+                    </div>
+
+                    <div class="temporizador-controles animar-scroll image-scroll">
+                        <button id="btn-iniciar">Iniciar</button>
+                        <button id="btn-pausar">Pausar</button>
+                        <button id="btn-reiniciar">Reiniciar</button>
+                    </div>
+
+                    <div class="temporizador-tiempo animar-scroll">
+                        <p>Elegir tiempo</p>
+                        <div class="ajuste-tiempo">
+                            <button id="btn-restar">−</button>
+                            <span id="tiempo-seleccionado">10 min</span>
+
+                            <button id="btn-sumar">+</button>
+                        </div>
+                    </div>
+
+    <div class="tiempos-rapidos animar-scroll image-scroll">
+        <button data-tiempo="5">5 min</button>
+        <button data-tiempo="10">10 min</button>
+        <button data-tiempo="15">15 min</button>
+        <button data-tiempo="20">20 min</button>
+        <button data-tiempo="30">30 min</button>
+    </div>
+
+</div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <script type="module" src="../src/js/main.js"></script>  
+</body>
+</html>
