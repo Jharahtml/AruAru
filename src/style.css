@@ -30,15 +30,15 @@
 }   
 @font-face {
     font-family: "Sigmar";
-    src: url(/src/assets/fonts/Sigmar.ttf);
+    src: url(./assets/fonts/Sigmar.ttf);
 }
 @font-face {
     font-family: "Schoolbell";
-    src: url(/src/assets/fonts/Schoolbell.ttf);
+    src: url(./assets/fonts/Schoolbell.ttf);
 }
 @font-face {
     font-family: "Geist";
-    src: url("/src/assets/fonts/Geist-VariableFont_wght.ttf") format("truetype");
+    src: url("./assets/fonts/Geist-VariableFont_wght.ttf") format("truetype");
     font-weight: 100 900;
     font-style: normal;
 }
@@ -73,7 +73,7 @@ body {
     padding: var(--espacio-64) 0px;
     background-image: url("./assets/img/Asset-45.svg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;/*repeat-check*/
 
 }
 .wrapper{
@@ -517,7 +517,7 @@ header{
 
 /*--------------SECCION PREPARACION-----------------*/
 .bloque-forma{
-    background-image: url("/src/assets/img/forma-preparacion.svg");
+    background-image: url("./assets/img/forma-preparacion.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -629,7 +629,7 @@ header{
     height: 60px;
     z-index: 2;
 
-    background-image: url("/src/assets/img/elipse-num.svg");
+    background-image: url("./assets/img/elipse-num.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -658,13 +658,13 @@ header{
 }
 /*---------------------SVG-DESARROLLO-----------------------*/
 .des-tablero{
-    background-image: url("/src/assets/img/forma-1.svg");
+    background-image: url("./assets/img/forma-1.svg");
     width: 540px;
     background-size: 100% 100%;
 }
 
 .des-border{
-    background-image: url("/src/assets/img/forma-border-1.svg");
+    background-image: url("./assets/img/forma-border-1.svg");
     width: 540px;
     background-size: 100% 100%;
 
@@ -672,22 +672,22 @@ header{
 /*Personajes*/
 .des-personajes{
     background-color: var(--naranja);
-    mask: url("/src/assets/img/forma-1.svg") center / 100% 100% no-repeat;
+    mask: url("./assets/img/forma-1.svg") center / 100% 100% no-repeat;
     width: 540px;
 }
 .des-border-4{
-    background-image: url("/src/assets/img/forma-border-n-1.svg");
+    background-image: url("./assets/img/forma-border-n-1.svg");
     width: 540px;
 }
 /*Historia*/
 .des-historia{
     background-color: var(--verde);
-    mask: url("/src/assets/img/forma-1.svg") center / 100% 100% no-repeat;
+    mask: url("./assets/img/forma-1.svg") center / 100% 100% no-repeat;
     width: 540px;
     
 }
 .des-border-5{
-    background-image: url("/src/assets/img/forma-border-5.svg");
+    background-image: url("./assets/img/forma-border-5.svg");
     width: 540px;   
 }
 /*--------------NAVEGACIÓN ACTIVIDADES-----------------*/
@@ -1317,14 +1317,14 @@ header{
 .rompe{
     width: 460px;
     height: 360px; 
-    background-image: url(/src/assets/img/rompe.svg);
+    background-image: url(./assets/img/rompe.svg);
     transform: translateX(-100px);
        
 }
 .cabeza{
     width: 405px;
     height: 360px;
-    background-image: url(/src/assets/img/cabezas.svg);  
+    background-image: url(./assets/img/cabezas.svg);  
     transform: translateX(100px)
 }
 .rompe,
