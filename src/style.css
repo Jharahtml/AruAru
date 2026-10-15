@@ -2600,7 +2600,7 @@ ul{
 
     .tiempos-rapidos button {
         width: 48px;
-        height: 40px;
+        height: 48px;
         font-size: 16px;
     }
 
@@ -2874,10 +2874,9 @@ ul{
         gap: 28px;
     }
 
-    .temporizador-reloj {
+    /*.temporizador-reloj {
         font-size: 80px;
-    }
-
+    }*/
     .temporizador-controles {
         gap: 12px;
     }
