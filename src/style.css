@@ -1113,7 +1113,7 @@ header{
 /*------------------ARBOL:IMPRIMIR---------------*/
 @media print {
     @page {
-        size: landscape;
+        size: A4 landscape;
         margin: 0;
     }
 
@@ -1174,21 +1174,34 @@ header{
     /*.arbol-contenedor {
         width: 900px;
         height: 506px;
-        max-width: 100%;
-        margin: 30px auto;
+        max-width: none;
+        margin: 0 auto;
         position: relative;
+        overflow: visible
     }*/
     .arbol-contenedor {
-        width: 900px !important;
-        height: 506px !important;
+        width: 277mm !important;
+        height: 155.6mm !important;
         max-width: none !important;
         aspect-ratio: auto !important;
         margin: 0 auto !important;
         position: relative;
         overflow: visible !important;
+         box-sizing: border-box;
     }
     .arbol-ideas {
     z-index: 1;
+    }
+        .idea {
+        width: max-content !important;
+        max-width: none !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+        white-space: nowrap !important;
+        overflow: visible !important;
+        text-overflow: clip !important;
+        -webkit-appearance: none;
+        appearance: none;
     }
 }
 
