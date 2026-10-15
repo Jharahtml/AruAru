@@ -31,6 +31,7 @@ function actualizarBotonEliminar() {
 }
 
 let ideaMovida = null;
+let elementoArrastre = null;
 let desplazamientoX = 0;
 let desplazamientoY = 0;
 
@@ -268,6 +269,8 @@ document.addEventListener("pointerdown", (evento) => {
     }
 
     ideaMovida = elemento.closest(".idea-wrapper");
+    ///nuevo
+    elemento.setPointerCapture(evento.pointerId);
 
     const contenedor = document.querySelector(".arbol-ideas");
     const rectContenedor = contenedor.getBoundingClientRect();
@@ -284,7 +287,7 @@ document.addEventListener("pointerdown", (evento) => {
     desplazamientoX = evento.clientX - rect.left;
     desplazamientoY = evento.clientY - rect.top;
 
-    ideaMovida.setPointerCapture(evento.pointerId);
+    //ideaMovida.setPointerCapture(evento.pointerId);
 
     const idea = ideaMovida.querySelector(".idea");
 

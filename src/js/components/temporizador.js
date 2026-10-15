@@ -5,7 +5,7 @@ if (temporizador) {
     let tiempoInicial = 10 * 60;
     let intervalo = null;
     const sonidoAviso = new Audio(
-    "/src/assets/audio/temporizador.mp3");
+    "../src/assets/audio/temporizador.mp3");
     sonidoAviso.addEventListener("canplaythrough", () => {
     console.log("Audio cargado correctamente");
 });

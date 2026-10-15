@@ -1059,6 +1059,8 @@ header{
     background-size: contain;
     cursor: grab;
     flex-shrink: 0;
+    touch-action: none;/*check-touchdown*/
+
 }.arbol-section.editando .idea-wrapper:hover {
     transform: translateY(-2px);
 }
@@ -2114,7 +2116,7 @@ ul{
         grid-column: 1;
     }
 .numero-paso{
-    top: 2px;
+    top: 0;
     /*transform: translateY(-50%);*/
     width: 36px;
     height: 36px;
@@ -2184,16 +2186,16 @@ ul{
        -webkit-mask: none;
 
      background-color: transparent;
-    background-image: url('/src/assets/img/forma-n1-movil.svg');
+    background-image: url('./assets/img/forma-n1-movil.svg');
     width: 312px;
 }
 .des-border-4{
-    background-image: url('/src/assets/img/forma-border-n1-movil.svg');
+    background-image: url('./assets/img/forma-border-n1-movil.svg');
     width: 312px;
     height: 225px;
 }
 .desn-movil-3{
-    background-image: url('/src/assets/img/forma-movil-n3.svg');
+    background-image: url('./assets/img/forma-movil-n3.svg');
     width: 312px;
     height: 250px;
 }
@@ -2202,12 +2204,12 @@ ul{
     mask: none;
        -webkit-mask: none;
     background-color: transparent;
-    background-image: url('/src/assets//img/forma-v1-movil.svg');   
+    background-image: url('./assets//img/forma-v1-movil.svg');   
     width: 312px;
     height: 270px;
 }
 .des-border-5{
-    background-image: url('/src/assets/img/forma-border-v1-movil.svg');
+    background-image: url('./assets/img/forma-border-v1-movil.svg');
     width: 312px;
     height: 196px;
 }
@@ -2215,7 +2217,7 @@ ul{
     mask: none;
        -webkit-mask: none;
     background-color: transparent;
-    background-image: url('/src/assets//img/forma-movil-v2.svg');   
+    background-image: url('./assets//img/forma-movil-v2.svg');   
     width: 312px;
     height: 190px;
 }
@@ -2223,7 +2225,7 @@ ul{
     mask: none;
        -webkit-mask: none;
     background-color: transparent;
-    background-image: url('/src/assets//img/forma-movil-v3.svg');   
+    background-image: url('./assets//img/forma-movil-v3.svg');   
     width: 312px;
     height: 225px;
 }
