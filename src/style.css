@@ -73,7 +73,7 @@ body {
     padding: var(--espacio-64) 0px;
     background-image: url("./assets/img/Asset-45.svg");
     background-position: center;
-    background-repeat: repeat;/*repeat-check*/
+    /*background-repeat: repeat;/*repeat-check*/
 
 }
 .wrapper{
@@ -180,24 +180,24 @@ ul {
 }
 .bullet-azul{
     list-style: none;
-    list-style-image: url('/src/assets/img/bullet-1.svg');
+    list-style-image: url('./assets/img/bullet-1.svg');
 }
 .bullet-azul li{
     margin-bottom: 2px;
 }
 .bullet-naranja{
     list-style: none;
-    list-style-image: url('/src/assets/img/bullet-2.svg');
+    list-style-image: url('./assets/img/bullet-2.svg');
 }
 .bullet-verde{
     list-style: none;
-    list-style-image: url('/src/assets/img/bullet-3.svg');
+    list-style-image: url('./assets/img/bullet-3.svg');
 }
 .bullet-check{
     margin: 0;
     padding: 0;
     list-style: none;
-    list-style-image: url('/src/assets/img/bullet-4.svg'); 
+    list-style-image: url('./assets/img/bullet-4.svg'); 
 }
 .logo {
     width: 48px;
@@ -899,7 +899,7 @@ header{
     margin: 30px auto;
     border: solid 2px black;
     border-radius: 2px;
-    background-image: url("/src/assets/img/arbol.svg");
+    background-image: url("./assets/img/arbol.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1053,7 +1053,7 @@ header{
     display: none;
     width: 20px;
     height: 20px;
-    background-image: url("/src/assets/img/icono-mover.svg");
+    background-image: url("./assets/img/icono-mover.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2073,7 +2073,7 @@ ul{
     gap: 0px;
 }
 .bloque-forma{
-    background-image: url('/src/assets/img/forma-preparacion-movil.svg');
+    background-image: url('./assets/img/forma-preparacion-movil.svg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -2169,11 +2169,11 @@ ul{
     max-width: 312px;
 }
 .des-border{
-    background-image: url('/src/assets/img/forma-border-0-movil.svg');
+    background-image: url('./assets/img/forma-border-0-movil.svg');
     height: 166px;
 }
 .desa-movil-2{
-    background-image: url('/src/assets/img/forma-movil-a2.svg');
+    background-image: url('./assets/img/forma-movil-a2.svg');
     width: 312px;
     height: 230px;
 }
@@ -2840,11 +2840,11 @@ ul{
     }
     /*SVGS-TABLET*/
     .des-tablero{
-        background-image: url('/src/assets/img/forma-azul-tablet.svg');
+        background-image: url('./assets/img/forma-azul-tablet.svg');
 
     }
     .des-border{
-        background-image: url('/src/assets/img/border1-azul-tablet.svg');
+        background-image: url('./assets/img/border1-azul-tablet.svg');
         width: 330px;
     }
     .des-personajes{
@@ -2852,18 +2852,18 @@ ul{
         -webkit-mask: none;
         background-color: transparent;
      
-        background-image: url('/src/assets/img/forma-naranja-tablet.svg');
+        background-image: url('./assets/img/forma-naranja-tablet.svg');
         /*height: 250px;*/
     }
     .des-border-4{
-        background-image: url('/src/assets/img/border-naranja-tablet.svg');
+        background-image: url('./assets/img/border-naranja-tablet.svg');
     }
     .des-historia{
         background-color: var(--verde);
-        mask: url("/src/assets/img/forma-naranja-tablet.svg") center / 100% 100% no-repeat;
+        mask: url("./assets/img/forma-naranja-tablet.svg") center / 100% 100% no-repeat;
     }
     .des-border-5{
-        background-image: url('/src/assets/img/border-verde-tablet.svg');
+        background-image: url('./assets/img/border-verde-tablet.svg');
 
     }
     /*--------------------------TEMPORIZADOR-TABLET--------------------------------*/
