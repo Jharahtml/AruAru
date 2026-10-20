@@ -1971,10 +1971,13 @@ ul{
 /*--------------------INICIO:MOVIL---------------*/
 .section-patron{
     padding: var(--espacio-32);
+    width: 100%;
     background-image: url('./assets/img/patron-section.svg');
     background-position: center;
+    background-size: 100% auto;
+    background-repeat: repeat-y;
     /*background-repeat: repeat-y;*/
-    /*background-size: 360px auto;*/
+    
     
 }
 .wrapper-portada {
